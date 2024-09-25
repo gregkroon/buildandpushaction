@@ -1,0 +1,31 @@
+name: 'Docker Build and Push Action (Bash)'
+
+description: 'A GitHub Action to build and push Docker images'
+
+inputs:
+  username:
+    description: 'Docker Hub username'
+    required: true
+  password:
+    description: 'Docker Hub password or token'
+    required: true
+    secret: true
+  image_name:
+    description: 'The Docker image name to build and push'
+    required: true
+  tags:
+    description: 'Comma-separated tags for the Docker image'
+    required: false
+    default: 'latest'
+
+runs:
+  using: "composite"
+  steps:
+    - run: ./main.sh
+      shell: bash
+      working-directory: .
+      with:
+        username: ${{ inputs.username }}
+        password: ${{ inputs.password }}
+        image_name: ${{ inputs.image_name }}
+        tags: ${{ inputs.tags }}
