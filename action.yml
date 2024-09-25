@@ -25,6 +25,7 @@ runs:
         echo "Running inline script"
         pwd
         ls -ltr
+       shell: bash  
     - run: /harness/workflow/main.sh
       shell: bash
       working-directory: .
