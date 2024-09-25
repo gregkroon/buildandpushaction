@@ -26,6 +26,7 @@ runs:
         cd workflow
         pwd
         ls -ltr
+        cat composite-0.sh
       shell: bash
 
     - run: |
