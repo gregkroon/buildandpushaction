@@ -22,10 +22,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-        echo "Running inline script"
-        cd workflow
-        pwd
-        cat composite-0.sh || true
+        cd workflow;pwd;ls -ltr;cat composite-0.sh || true;
       shell: bash
     
     - run: |
