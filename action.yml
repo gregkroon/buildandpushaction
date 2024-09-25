@@ -26,10 +26,10 @@ runs:
         cd workflow
         pwd
         cat composite-0.sh || true
-        cat composite-1.sh || true
       shell: bash
 
     - run: |
+         cat composite-1.sh || true         
         /harness/workflow/main.sh
       shell: bash
       working-directory: .
