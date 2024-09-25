@@ -25,20 +25,8 @@ runs:
         echo "Running inline script"
         cd workflow
         pwd
-        ls -ltr
-        if [ -f "/harness/workflow/composite-0.sh" ]; then
-        echo "composite-0.sh exists, displaying contents:"
-        cat /harness/workflow/composite-0.sh
-
-        # Check if composite-1.sh exists
-        elif [ -f "/harness/workflow/composite-1.sh" ]; then
-        echo "composite-1.sh exists, displaying contents:"
-        cat /harness/workflow/composite-1.sh
-
-        # If neither file exists
-        else
-        echo "Neither composite-0.sh nor composite-1.sh exists."
-        fi
+        cat composite-0.sh || true
+        cat composite-1.sh || true
       shell: bash
 
     - run: |
