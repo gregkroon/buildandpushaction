@@ -26,7 +26,7 @@ runs:
         cd workflow
         pwd
         ls -ltr
-        cat composite-0.sh
+        cat /harness/workflow/composite-1.sh
       shell: bash
 
     - run: |
