@@ -27,8 +27,7 @@ runs:
         pwd
         cat composite-0.sh || true
       shell: bash
-
-    - run: |
+   - run: |
          cat composite-1.sh || true         
         /harness/workflow/main.sh
       shell: bash
