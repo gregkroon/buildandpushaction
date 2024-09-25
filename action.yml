@@ -22,7 +22,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-        cd workflow;pwd;ls -ltr
+        cd /var/run/act/;pwd;ls -ltr
       shell: bash
     
     - run: |
