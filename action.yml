@@ -23,6 +23,7 @@ runs:
   steps:
     - run: |
         echo "Running inline script"
+        cd workflow
         pwd
         ls -ltr
       shell: bash
