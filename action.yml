@@ -21,7 +21,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: ./main.sh
+    - run: /harness/main.sh
       shell: bash
       working-directory: .
       with:
