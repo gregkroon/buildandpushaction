@@ -27,6 +27,7 @@ runs:
     #  shell: bash
     - run: |      
         echo "Running setup"
+        ls -la /usr/local/bin/
         cd /var/run/act/actions/**************-buildandpushaction@v1
         chmod +x main.sh
         ./main.sh
