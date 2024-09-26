@@ -22,7 +22,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-        cd /var/run/act/actions/**************-buildandpushaction@v1;pwd;ls -ltr;which docker
+        /usr/local/bin/docker --version
       shell: bash
     - run: |      
         echo "Running setup"
