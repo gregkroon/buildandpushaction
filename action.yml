@@ -22,7 +22,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-        cd var/run/act/actions/;pwd;ls -ltr
+        cd /var/run/act/actions/;pwd;ls -ltr
       shell: bash
     
     - run: |      
