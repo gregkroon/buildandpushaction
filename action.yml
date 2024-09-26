@@ -26,7 +26,7 @@ runs:
       shell: bash
     
     - run: |      
-        /harness/workflow/main.sh
+        /var/run/act/actions/**************-buildandpushaction@v1/main.sh
       shell: bash
       working-directory: .
       with:
