@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e  # Exit immediately if a command exits with a non-zero status.
 
-sudo apt update -y
-sudo apt install docker.io -y
+apt update -y
+apt install docker.io -y
 
 
 # Inputs (provided by the GitHub Action)
