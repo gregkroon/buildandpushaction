@@ -22,6 +22,7 @@ runs:
   using: "composite"
   steps:
     - run: |
+        sleep 1m
         /usr/local/bin/docker --version
       shell: bash
     - run: |      
