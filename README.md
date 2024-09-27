@@ -13,7 +13,7 @@ This action is designed to help automate Docker image builds and push operations
 ## Prerequisites
 
 - **DockerHub Account**: Ensure you have a valid DockerHub account and store your credentials securely in the pipeline secrets.
-- **Drone CI**: Make sure that you have Drone CI installed and configured in your project.
+- **Drone CI**: Make sure that you have Harness drone plugin configured in your project.
 - **GitHub Token**: You will need a GitHub token stored in the Drone secrets for authentication during the action execution.
 
 ## Usage
