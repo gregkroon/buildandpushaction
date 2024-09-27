@@ -1,7 +1,3 @@
-Here is a sample structure for the README file based on your project configuration:
-
----
-
 # Build and Push Action
 
 This project contains a custom GitHub Action that builds and pushes Docker images using the Harness Drone CI plugin.
@@ -71,7 +67,3 @@ You will need to configure the following secrets in Drone CI:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This should provide a complete overview of how the plugin step functions and how to set it up within your pipeline. You can adjust the content to better suit your project details if necessary.
