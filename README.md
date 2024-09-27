@@ -4,7 +4,7 @@ Here is a sample structure for the README file based on your project configurati
 
 # Build and Push Action
 
-This project contains a custom GitHub Action that builds and pushes Docker images using Drone CI.
+This project contains a custom GitHub Action that builds and pushes Docker images using the Harness Drone CI plugin.
 
 ## Overview
 
