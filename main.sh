@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e  # Exit immediately if a command exits with a non-zero status.
 
-cd /harness
+#cd /harness
 
-apt update -y
-apt install docker.io -y
+#apt update -y
+#apt install docker.io -y
 
 
 # Inputs (provided by the GitHub Action)
