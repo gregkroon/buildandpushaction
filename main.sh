@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e  # Exit immediately if a command exits with a non-zero status.
 
-mkdir /harness
-cd /harness
+echo test docker 
+docker --version
 
 #apt update -y
 #apt install docker.io -y
